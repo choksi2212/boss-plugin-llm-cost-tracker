@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.llmcost",
+  "displayName": "LLM Cost Tracker",
+  "version": "0.1.0",
+  "apiVersion": "1.0",
+  "minApiVersion": "1.0.92",
+  "mainClass": "ai.rever.boss.plugin.dynamic.llmcost.LlmCostDynamicPlugin",
+  "type": "mixed",
+  "description": "Per-call LLM token and cost tracker - aggregates by plugin, by model, by day, with monthly budget alerts.",
+  "author": "Risa Labs",
+  "url": "https://github.com/choksi2212/boss-plugin-llm-cost-tracker",
+  "panel": {
+    "position": "left_bottom",
+    "priority": 90
+  },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  }
+}
