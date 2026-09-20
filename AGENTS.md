@@ -142,3 +142,7 @@ in `windowCutoff(window)`; the aggregate summary uses the precomputed
 - **Never** add a synthetic alert call that carries non-zero
   `totalCostUsd`. The alert is supposed to warn about spend, not contribute
   to it.
+
+## Initial release notes
+
+Version 0.1.0 ships the first cost-tracker panel and MCP surface for BOSS.
