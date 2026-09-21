@@ -24,7 +24,7 @@ class LlmCostDynamicPlugin : DynamicPlugin {
     override val description: String =
         "Per-call LLM token and cost tracker - aggregates by plugin, by model, " +
             "by day, with monthly budget alerts."
-    override val author: String = "Risa Labs"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-llm-cost-tracker"
 
     @Volatile
